@@ -90,7 +90,7 @@
 
 .header-section .right-header-section{
     width: 60%;
-    height: 80vh;
+    height: auto;
 }
 
 .header-section .right-header-section img{
@@ -108,8 +108,9 @@
 
 .form-section{
     justify-content: space-between;
-    height: 100vh;
+    height: auto;
     padding-top: 90px;
+    padding-bottom: 54px;
 }
 
 .form-section h1{
@@ -221,7 +222,7 @@ width: 45%;
 }
 
 .offer-section{
-    height: 90vh;
+    height: auto;
     width: 80%; 
 }
 
@@ -295,14 +296,14 @@ width: 45%;
 }
 
 .fix-section-text h1{
-    font-size: 30px;
+    font-size: 27px;
     color: #F8F5F5;
     padding: 50px 10px 30px 20px;
 }
 
 .fix-section-link{
     background-color: #0F0E0E;
-    margin-top: 4em;
+    margin-top: 10px;
     margin-left: 3em;
     font-size: 20px;
     padding: 0.6em;
@@ -400,7 +401,7 @@ padding-right: 4px;
 
 .quest{
     background-color: #CDCACA;
-    height: 90vh;
+    height: auto;
     padding-bottom: 2em;
 }
 
@@ -441,7 +442,8 @@ padding-right: 4px;
 
 .contacts{
     background-color: #0F0D0D;
-    height: 40vh;
+    height: auto;
+    padding-bottom: 2em;
 }
 
 .contact-section{
@@ -540,7 +542,6 @@ padding-right: 4px;
     }
 
     .main-header {
-        width: 80%;
         justify-content: flex-start;
         align-items: flex-start;
     }
@@ -716,7 +717,7 @@ padding-right: 4px;
     }
 
     .offer-img img {
-        width: 169px;
+        width: 60%;
         height: 82px;
         margin-left: 2em;
     }
@@ -745,8 +746,8 @@ padding-right: 4px;
     }
 
     .fix-section-text h1 {
-        font-size: 17px;
-        padding: 15px 10px 12px 10px;
+        font-size: 12px;
+        padding: 13px 9px 6px 9px;
     }
 
     .fix-section-link {
@@ -794,7 +795,7 @@ padding-right: 4px;
 
     .testy-h1 {
         font-size: 14px;
-        width: 303px;
+        width: 100%;
         text-align: center;
         padding: 1em 1em 12px 1em;
     }
@@ -826,7 +827,7 @@ padding-right: 4px;
     }
 
     .quest-h1 {
-        width: 300px;
+        width: 100%;
         font-size: 17px;
         padding: 1em 0 14px 0.8em;
     }
@@ -860,7 +861,7 @@ padding-right: 4px;
     }
 
     .contact-left .social-media img {
-        width: 32px;
+        width: 100%;
     }
 
     .contact-right {
@@ -924,9 +925,9 @@ padding-right: 4px;
         padding-bottom: 3em;
     }
 
-    .h eader-section .right-header-section img {
-        width: 362px;
-        height: 316px;
+    .header-section .right-header-section img {
+        width: 100%;
+        height: 264px;
     }
 
     .header-section .right-header-section {
@@ -1013,9 +1014,14 @@ padding-right: 4px;
 
     .offer-link {
         font-size: 16px;
-        margin-left: 22em;
+        margin-left: 13em;
         padding-top: 1em;
         padding-bottom: 1em;
+    }
+
+    .offer-link a img {
+        width: 12%;
+        height: 15px;
     }
 
     .fix-img-bg {
@@ -1036,7 +1042,9 @@ padding-right: 4px;
     }
 
     .fix-section-link {
-        margin-top: 1em;
+        font-size: 14px;
+        padding: 2px;
+        margin-top: 5px;
     }
 
     .fix-price p {
@@ -1061,7 +1069,7 @@ padding-right: 4px;
 
     .testy-h1 {
         font-size: 23px;
-        width: 525px;
+        width: 100%;
         padding: 2em 1em 1em 1em;
     }
 
